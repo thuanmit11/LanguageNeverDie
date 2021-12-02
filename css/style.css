@@ -151,7 +151,7 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.55),
       rgba(12, 32, 58, 0.74)
     ),
-    url(image/bg1.jpg);
+    url(/image/bg1.jpg);
   flex-direction: column;
   background-position: 0px 0px 100% 50%;
   background-size: auto, cover;
