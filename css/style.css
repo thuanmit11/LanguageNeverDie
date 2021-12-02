@@ -236,3 +236,171 @@ a.nav-link:hover {
 .service-2 .fa{
     padding: 3rem 5rem 1rem 2rem;
 }
+.portfolio{
+  min-height: 1250px;
+  overflow:hidden;
+}
+.gallery{
+  min-height: 252px;
+  background-position: 0px 0px;
+  background-size: cover;
+  opacity: 1;
+}
+.img-6{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ), 
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+}
+.img-1{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ), 
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+}
+.img-2{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ), 
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+}
+.img-3{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ), 
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+}
+.img-4{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ), 
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+}
+.img-5{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ), 
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+}
+.text-left-block{
+  width: 100%;
+  left:0;
+  height: 100%;
+  z-index:999;
+  overflow: hidden;
+
+}
+.text-left-block .left-center-text{
+  display:table;
+  position: relative;
+  height: 100vh;
+  padding: 0 10%;
+  text-align: left;
+}
+.text-left-block .left-center-text .left-center-part{
+  display:table cell;
+  vertical-align: middle;
+}
+.text-left-block .left-center-text .left-center-part h2{
+  font-weight: 500;
+}
+.team-section{
+  padding: 0rem 0rem 1rem 0rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.team-paragraph{
+  padding: 0rem 2rem 1rem 0rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+.block-team{
+  margin: 1rem 0 0;
+
+}
+.block-team img.team-member{
+  width: 240px;
+  object-fit: fill;
+}
+.block-team h3{
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
+.block-team small{
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #e74c3c;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.block-team .paragraph{
+  padding: 0rem 3rem 0rem 0rem;
+}
+.block-team .social-media{
+margin: 4px;
+font-size: 18px;
+border: 1px solid #fff;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+text-align: center;
+padding-top: 5px;
+} 
+i.fa{
+ padding:10px;
+
+color: rgb(30, 100, 146);
+}
+i.fa:hover {
+background-color: #b1b4bd;
+color:#e74c3c
+}
