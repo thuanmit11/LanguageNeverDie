@@ -49,7 +49,7 @@ a.nav-link:hover {
       rgba(50, 58, 69, 0.55),
       rgba(50, 58, 69, 0.74)
     ),
-    url(/image/bg-Language.JPEG);
+    url(../image/bg-Language.JPEG);
   flex-direction: column;
   background-position: 0px 0px 100% 50%;
   background-size: auto, cover;
@@ -151,7 +151,7 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.55),
       rgba(12, 32, 58, 0.74)
     ),
-    url(/image/bg-aboutUs.jpg);
+    url(../image/bg-aboutUs.jpg);
   flex-direction: column;
   background-position: 0px 0px 100% 50%;
   background-size: auto, cover;
@@ -187,7 +187,7 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.55),
       rgba(12, 32, 58, 0.74)
     ),
-    url(/image/bg-aboutUs.jpg);
+    url(../image/bg-aboutUs.jpg);
   flex-direction: column;
   background-position: 0px 0px 100% 50%;
   background-size: auto, cover;
