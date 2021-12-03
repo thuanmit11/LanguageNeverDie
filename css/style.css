@@ -398,9 +398,8 @@ text-align: center;
 padding-top: 5px;
 } 
 i.fa{
-  margin: 10px;
- padding:19px;
 
+ padding:19px;
  border-radius: 50%;
 color: #b1b4bd;
 background-color: rgb(30, 100, 146);
@@ -411,7 +410,7 @@ color:#e74c3c
 }
 
 .contact-right{
-  min-height: 900px;
+  min-height: 750px;
   background-image: -webkit-gradient(
     linear,
     left top,
