@@ -397,20 +397,17 @@ height: 30px;
 text-align: center;
 padding-top: 5px;
 } 
-i.fa{
+/* a>i.fa {
 
  padding:19px;
  border-radius: 50%;
 color: #b1b4bd;
 background-color: rgb(30, 100, 146);
-}
-i.fa:hover {
-background-color: #b1b4bd;
-color:#e74c3c
-}
+} */
+
 
 .contact-right{
-  min-height: 750px;
+  min-height: 900px;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -509,4 +506,20 @@ font-weight: bold;
   font-weight: 300;
   line-height: 5rem;
   z-index:999;
+}
+
+.logo{
+  width: 3rem;
+  height: auto;
+  margin-right:1rem;
+}
+.logo:hover {
+  background-color: #b1b4bd;
+  border-radius: 50%;
+}
+
+.img-service{
+  width: 10em;
+  padding:19px;
+  padding-left:40px;
 }
