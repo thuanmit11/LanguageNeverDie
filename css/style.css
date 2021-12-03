@@ -411,7 +411,7 @@ color:#e74c3c
 }
 
 .contact-right{
-  min-height: 750px;
+  min-height: 900px;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -430,4 +430,84 @@ color:#e74c3c
   background-attachment: scroll, scroll;
   object-fit: cover;
   -o-object-fit: cover;
+}
+.contact-section{
+padding: 6rem 0rem 1rem 0rem;
+font-size: 2.8rem;
+font-weight: 500;
+}
+.contact-left .paragraph{
+padding: 0rem 3rem 0rem 0rem;
+font-size: 1rem;
+line-height: 1.2;
+}
+strong{
+  font-weight: 700;
+}
+.phone-mail-link{
+color:#fff;
+font-weight: bold;
+}
+.phone-mail-link:hover {
+  color:#e74c3c;
+}
+#contact-form{
+  margin-top: 40px;
+}
+#contact-form .form-control{
+  background-color: #2e353f;
+  border:none;
+  border-radius: .3rem;
+  box-shadow: none;
+  font-weight: 300;
+  outline: medium none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  height: auto;
+  width: 100%;
+  color:#fff;
+  margin-bottom: 1rem;
+  transition: all .2s ease-in-out;
+  text-align: left;
+}
+#contact-form .form-control:hover, #contact-form .form-control:focus{
+  box-shadow: none;
+  background-color: #293039;
+}
+#contact-form textarea.form-control{
+  min-height: 8rem;
+}
+#contact-form span.sub-text{
+  color:#939da5;
+  position: absolute;
+  font-size: 0.9rem;
+  right:5rem;
+}
+#contact-form button#valid-form{
+  font-weight: 300;
+  text-transform: uppercase;
+  padding:1rem 2rem;
+  font-size: 1rem;
+  color:#fff;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  border: none  ;
+  display:inline-block
+
+}
+
+#contact-form button#valid-form:hover{
+  background: #00e2c0;
+
+}
+.copyright{
+  position: absolute;
+  left:5rem;
+  bottom:-100px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 5rem;
+  z-index:999;
 }
