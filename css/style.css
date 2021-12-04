@@ -572,3 +572,10 @@ font-weight: bold;
   padding:19px;
   padding-left:40px;
 }
+.video-service{
+  margin:3% 5% 0 5% ;
+  height: auto;
+  width: 35%;
+  display:inline;
+  
+}
