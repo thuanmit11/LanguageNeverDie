@@ -237,7 +237,7 @@ a.nav-link:hover {
     padding: 3rem 5rem 1rem 2rem;
 }
 .portfolio{
-  min-height: 750px;
+  min-height: 1000px;
   overflow:hidden;
 }
 .gallery{
@@ -248,6 +248,9 @@ a.nav-link:hover {
   transition: transform .2s; /* Animation */
   /* border:  #e74c3c 1px solid; */
 
+}
+.gallery-text{
+  margin: 6.5rem 3rem 1rem 3.5rem;
 }
 .gallery:hover {
   transform: scale(1.05);
@@ -340,6 +343,36 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.74)
     ), 
     url(https://thuanmit11.github.io/LanguageNeverDie/image/tbick.JPG);
+
+}
+.img-7{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ), 
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg3.JPG);
+
+}
+.img-8{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ), 
+    url(https://thuanmit11.github.io/LanguageNeverDie/image./bg4.PNG);
 
 }
 .text-left-block{
