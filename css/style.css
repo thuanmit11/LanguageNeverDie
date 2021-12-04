@@ -245,6 +245,13 @@ a.nav-link:hover {
   background-position: 0px 0px;
   background-size: cover;
   opacity: 1;
+  transition: transform .2s; /* Animation */
+  /* border:  #e74c3c 1px solid; */
+
+}
+.gallery:hover {
+  transform: scale(1.05);
+  border: 1px solid #b1b4bd ;
 }
 .img-6{
   background-image: -webkit-gradient(
@@ -258,7 +265,8 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.55),
       rgba(12, 32, 58, 0.74)
     ), 
-    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/manh.jpg);
+  
 }
 .img-1{
   background-image: -webkit-gradient(
@@ -286,7 +294,8 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.55),
       rgba(12, 32, 58, 0.74)
     ), 
-    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/tbim.jpg);
+
 }
 .img-3{
   background-image: -webkit-gradient(
@@ -300,7 +309,8 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.55),
       rgba(12, 32, 58, 0.74)
     ), 
-    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/hh.jpg);
+
 }
 .img-4{
   background-image: -webkit-gradient(
@@ -314,7 +324,8 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.55),
       rgba(12, 32, 58, 0.74)
     ), 
-    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/tsex1.jpg);
+
 }
 .img-5{
   background-image: -webkit-gradient(
@@ -328,7 +339,8 @@ a.nav-link:hover {
       rgba(12, 32, 58, 0.55),
       rgba(12, 32, 58, 0.74)
     ), 
-    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/tbick.JPG);
+
 }
 .text-left-block{
   width: 100%;
@@ -372,6 +384,10 @@ a.nav-link:hover {
   object-fit: fill;
   border-radius: 10px;
   border: 1px solid red;
+  transition: transform .2s;
+}
+.block-team img.team-member:hover {
+  transform: scale(1.05);
 }
 .block-team h3{
   margin-top: 15px;
