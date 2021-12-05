@@ -571,9 +571,53 @@ strong {
   -webkit-transform: translateZ(0);
   box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16),
     0 14px 19px 0 rgba(0, 0, 0, 0.07);
-    border: #e74c3c solid 1px;
+  border: #e74c3c solid 1px;
 }
 #phoneNum,
 #phoneNum1 {
-  margin: 10%;
+  margin: 5%;
+  width: 10px;
+}
+
+/* Style cho kdo.html */
+.column-left-img img {
+  width: 40%;
+  height: auto;
+  border-radius: 5%;
+  border: 5px solid #b1b4bd;
+  margin: 4% 3% 0% 4%;
+  transition: transform 0.2s;
+}
+.column-left-img img:hover {
+  transform: scale(1.05);
+  border: 5px solid #e74c3c;
+}
+.column-left-img video{
+  width: 60%;
+  height: 40%;
+  border-radius: 5%;
+  border: 5px solid #b1b4bd;
+  margin: 4% 3% 0% 4%;
+
+}
+/* Style cho tsex.html */
+.column-left-img1 img {
+  width: 25%;
+  height: auto;
+  border-radius: 5%;
+  border: 5px solid #b1b4bd;
+  margin: 4% 3% 0% 4%;
+  transition: transform 0.2s;
+}
+.column-left-img1 img:hover {
+  transform: scale(2);
+  border: 1px solid #e74c3c;
+}
+.column-left-img1 video{
+  width: 40%;
+  height: auto;
+  border-radius: 5%;
+  border: 5px solid #b1b4bd;
+  margin: 4% 3% 0% 4%;
+
 }
