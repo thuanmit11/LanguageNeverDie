@@ -66,7 +66,10 @@
         </div>
       </nav>
     </div>
-    <h1 class="heading" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">お前はもう死んでる！<br>Xin chào các bạn!</h1>
+    <h1 class="heading"
+      style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      お前はもう死んでる！<br>Xin chào các bạn!</h1>
+    <div class="container d-flex align-items-center justify-content-center" id="animation"></div>
   </div>
   <div class="container-fluid" id="aboutUs">
     <div class="row">
@@ -91,12 +94,13 @@
   <div class="container-fluid" id="ourServices">
     <div class="row">
       <div iv class="col-xs-12 col-sm-6 col-lg-6">
-        <h1 class="service-section" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Một số điều về chúng tôi </h1>
-        <p style="font-family: 'Courier New', Courier, monospace; font-style: italic;"  class="paragraph">
+        <h1 class="service-section" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+          Một số điều về chúng tôi </h1>
+        <p style="font-family: 'Courier New', Courier, monospace; font-style: italic;" class="paragraph">
           ・Tinh nhuệ, dũng cảm, thích làm việc dễ trở nên khó <br>
           ・Luôn có khi không cần, khi cần thì có như không có<br>
-          ・Tham khảo clip ở bên để 
-          hiểu thêm về một vài thành viên chúng tôi 
+          ・Tham khảo clip ở bên để
+          hiểu thêm về một vài thành viên chúng tôi
 
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-lg-6 service-1">
@@ -104,16 +108,17 @@
             <h1 class="service-title-1" style="font-family:Arial, Helvetica, sans-serif;">Tiêu tiền hộ</h1>
             <p style="font-family: 'Courier New', Courier, monospace;" class="service-paragraph-1">
               Thực sự vậy, với mỗi 1.000.000VNĐ cần tiêu hộ thì bạn chỉ cần trả
-              cho chúng tôi 200.000VNĐ . Nếu bạn có nhu 
-              cầu cần tiêu tiền hộ thì hãy liên lạc với chúng tôi qua phần <span style="color: #ec7575;">Contact</span> bên dưới
+              cho chúng tôi 200.000VNĐ . Nếu bạn có nhu
+              cầu cần tiêu tiền hộ thì hãy liên lạc với chúng tôi qua phần <span style="color: #ec7575;">Contact</span>
+              bên dưới
             </p>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-6 service-2">
             <img src="https://thuanmit11.github.io/LanguageNeverDie/fonts/beg.png" alt="beg" class="img-service">
             <h1 class="service-title-2">Ăn đòn thuê</h1>
             <p class="service-paragraph-2" style="font-family:'Courier New', Courier, monospace;">
-              Anh em trong nhóm có mộ số thành viên tập tạ, da không đen nhưng 
-              khả năng chịu đòn cao. Nếu bạn có nhu cầu cần người ăn đòn hộ 
+              Anh em trong nhóm có mộ số thành viên tập tạ, da không đen nhưng
+              khả năng chịu đòn cao. Nếu bạn có nhu cầu cần người ăn đòn hộ
               thì hãy để lại thông tin liên lạc phía dưới.
             </p>
           </div>
@@ -341,7 +346,6 @@
 
 
   <script>
-
     function phoneRead(id) {
       var x = document.getElementById(id);
       if (x.style.display === "none") {
@@ -350,9 +354,19 @@
         x.style.display = "none";
       }
     }
-
-    
   </script>
+  
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js'></script>
+  
+  
+  <script>  var animation = bodymovin.loadAnimation({
+      container: document.getElementById('animation'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'https://assets4.lottiefiles.com/packages/lf20_jrejavt6.json' // lottie file path
+    })</script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
