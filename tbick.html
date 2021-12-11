@@ -41,14 +41,14 @@
                                     Members
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="kdo.html#aboutUs">KhanhDo - Chu tich</a></li>
-                                    <li><a class="dropdown-item" href="bim.html#aboutUs">AnhTuanNhaTa</a></li>
-                                    <li><a class="dropdown-item" href="tsex.html#aboutUs">Thanh sex</a></li>
-                                    <li><a class="dropdown-item" href="gate.html#aboutUs">Thuan Gate</a></li>
-                                    <li><a class="dropdown-item" href="tnam.html#aboutUs">Thanh Nam</a></li>
-                                    <li><a class="dropdown-item" href="bin.html#aboutUs">Manh Bin</a></li>
-                                    <li><a class="dropdown-item" href="hh.html#aboutUs">Dac vu double H</a></li>
-                                    <li><a class="dropdown-item" href="tbick.html#aboutUs">Tung Bick</a></li>
+                                    <li><a class="dropdown-item" href="kdo.html">KhanhDo - Chu tich</a></li>
+                                    <li><a class="dropdown-item" href="bim.html">AnhTuanNhaTa</a></li>
+                                    <li><a class="dropdown-item" href="tsex.html">Thanh sex</a></li>
+                                    <li><a class="dropdown-item" href="gate.html">Thuan Gate</a></li>
+                                    <li><a class="dropdown-item" href="tnam.html">Thanh Nam</a></li>
+                                    <li><a class="dropdown-item" href="bin.html">Manh Bin</a></li>
+                                    <li><a class="dropdown-item" href="hh.html">Dac vu double H</a></li>
+                                    <li><a class="dropdown-item" href="tbick.html">Tung Bick</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
@@ -67,7 +67,10 @@
                 </div>
             </nav>
         </div>
-        <h1 class="heading" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">お前はもう死んでる！<br>Xin chào các bạn!</h1>
+        <h1 class="heading"
+            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            私はTung Bickです<br>Tôi là Tùng Bick!</h1>
+            <div class="container d-flex align-items-center justify-content-center" id="animation"></div>
     </div>
 
     <div class="container-fluid" id="aboutUs">
@@ -75,7 +78,7 @@
             <div class="col-xs-12 col-sm-6 col-lg-6 column-left column-left-img">
                 <img src="https://thuanmit11.github.io/LanguageNeverDie/image/tbick.JPG" alt="bim">
                 <img src="https://thuanmit11.github.io/LanguageNeverDie/image/tbick5.jpg" alt="bim">
-                
+
                 <img src="https://thuanmit11.github.io/LanguageNeverDie/image/kdo8.PNG" alt="bim">
                 <img src="https://thuanmit11.github.io/LanguageNeverDie/image/tbick1.JPG" alt="bim">
 
@@ -119,9 +122,9 @@
                     ・NGU<br>
                 </p>
                 <div class="social-meadia" style="display: inline;">
-                    <a target="blank" href="https://www.facebook.com/tungthanhnguyen2209"> <img
-                        class="logo" src="https://thuanmit11.github.io/LanguageNeverDie/fonts/fbLogo.png" alt="fb"
-                        id="logo1"> </a>
+                    <a target="blank" href="https://www.facebook.com/tungthanhnguyen2209"> <img class="logo"
+                            src="https://thuanmit11.github.io/LanguageNeverDie/fonts/fbLogo.png" alt="fb" id="logo1">
+                    </a>
                     <!-- <a target="blank" href="https://www.instagram.com/nttuann.92/">
                       <img src="https://thuanmit11.github.io/LanguageNeverDie/fonts/igLogo.png" alt="igLogo"
                         class="logo">
@@ -132,16 +135,17 @@
                     </div>
                     <p  id="phoneNum" style="display:none; ">0918922001</p> -->
 
-                  </div>
-                  <a style="display: inline;" style="float: right;" href="index.html#team" id="valid-form" class="btn btn-color">View other
-                    Members</a>
                 </div>
+                <a style="display: inline;" style="float: right;" href="index.html#team" id="valid-form"
+                    class="btn btn-color">View other
+                    Members</a>
             </div>
-
-
-
-
         </div>
+
+
+
+
+    </div>
     </div>
 
 
@@ -150,17 +154,27 @@
     <script>
 
         function phoneRead(id) {
-          var x = document.getElementById(id);
-          if (x.style.display === "none") {
-            x.style.display = "inline";
-          } else {
-            x.style.display = "none";
-          }
+            var x = document.getElementById(id);
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
         }
-    
-        
-      </script>
 
+
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js'></script>
+
+
+    <script>
+    var animation = bodymovin.loadAnimation({
+    container: document.getElementById('animation'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://assets8.lottiefiles.com/private_files/lf30_no5ymi8c.json' // lottie file path
+  })  </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
